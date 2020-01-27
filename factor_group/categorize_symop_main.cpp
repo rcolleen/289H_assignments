@@ -5,21 +5,9 @@
 #include <complex>
 #include <iostream>
 #include <vector>
+//#include "symop.cpp"
 
 #define PREC 1e-6
-
-class Symmetry_Operation
-{
-
-public:
-    Eigen::Matrix3d cart_matrix;
-    Eigen::Vector3d translation;
-
-    Symmetry_Operation(Eigen::Matrix3d input_matrix, Eigen::Vector3d input_translation):
-        cart_matrix (input_matrix),
-        translation (input_translation)
-    {}
-};
 
 bool compare_diff_to_prec(Eigen::Vector3d difference)
 {
@@ -95,14 +83,34 @@ std::vector<Eigen::Vector3d> eigenvectors_with_positive_unit_eigenvalues(const E
     std::vector<Eigen::Vector3d> output_eigen_vectors;
     Eigen::Matrix3<std::complex<double>> eigenvectors = solver.eigenvectors();
 
+    int ct=0;
     for (int i = 0; i < 3; i++)
     {
-                auto eigenval = eigenvals(i);
+//      std::cout <<eigenvectors.col(i).real()<<std::endl;
+        auto eigenval = eigenvals(i);
+//        std::cout<<eigenval.real()<<std::endl;
         if (almost_equal(eigenval.real(), 1))
         {
+            ct++;
+//            std::cout<<"EigenVal=1 Found!"<<std::endl;
             Eigen::Vector3d real_eigenvector = eigenvectors.col(i).real();
             output_eigen_vectors.push_back(real_eigenvector);
         }
+    }
+    if (ct==0){ 
+        for (int i = 0; i < 3; i++)
+        {
+//        std::cout <<eigenvectors.col(i).real()<<std::endl;
+          auto eigenval = eigenvals(i);
+//          std::cout<<eigenval.real()<<std::endl;
+          if (almost_equal(eigenval.real(), -1))
+          {
+              ct++;
+//              std::cout<<"EigenVal=1 Found!"<<std::endl;
+              Eigen::Vector3d real_eigenvector = eigenvectors.col(i).real();
+              output_eigen_vectors.push_back(real_eigenvector);
+           }
+         }
     }
 
     return output_eigen_vectors;
@@ -125,6 +133,8 @@ std::string check_op_type(const Symmetry_Operation sym_op, const Eigen::Matrix3d
         return type;
     }
     std::vector<Eigen::Vector3d> eigen_vectors = eigenvectors_with_positive_unit_eigenvalues(sym_op.cart_matrix);
+//    std::cout<<eigen_vectors<<std::endl;
+//    std::cout << eigen_vectors.cols() << std::endl;
     if (eigen_vectors.size() == 2)
     {
         if (has_translation(project_translation_onto_vectors(eigen_vectors, sym_op.translation), lattice))
@@ -171,22 +181,23 @@ std::string check_op_type(const Symmetry_Operation sym_op, const Eigen::Matrix3d
     }
 }
 
-int main()
-{ // WHAT is the actual input????
-    // for now, hard coding example sym_ops
-
-    Eigen::Vector3d some_translation;
-    some_translation << 0.0, 0.0, 1;
-    Eigen::Matrix3d ymirror;
-    ymirror(0,0)=1; ymirror(0,1)=0; ymirror(0,1)=0;
-    ymirror(1,0)=0; ymirror(1,1)=-1; ymirror(1,2)=0; 
-    ymirror(2,0)=0; ymirror(2,1)=0;  ymirror(2,2)=1;
-    ::Symmetry_Operation sym_op(ymirror, some_translation);
-
-
-    Eigen::Matrix3d lattice;
-    lattice << 3.5, 0.0, 0.0, 0.0, 3.5, 0.0, 0.0, 0.0, 4.0;
-    std::string op_type = check_op_type(sym_op, lattice);
-    std::cout << "This is a " << op_type << std::endl;
-    return 0;
-}
+//int main()
+//{ // WHAT is the actual input????
+//    // for now, hard coding example sym_ops
+//
+//    Eigen::Vector3d some_translation;
+//    some_translation << 0.0, 0.0, 0.0;
+//    Eigen::Matrix3d ymirror;
+//    ymirror(0,0)=1; ymirror(0,1)=0; ymirror(0,1)=0;
+//    ymirror(1,0)=0; ymirror(1,1)=-1; ymirror(1,2)=0; 
+//    ymirror(2,0)=0; ymirror(2,1)=0; ymirror(2,2)=1;
+//    ::Symmetry_Operation my_sym_op(ymirror, some_translation);
+//
+//    std::cout<<my_sym_op.cart_matrix<<std::endl;
+//    std::cout<<some_translation<<std::endl;
+//    Eigen::Matrix3d lattice;
+//    lattice << 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0;
+//    std::string op_type = check_op_type(my_sym_op, lattice);
+//    std::cout << "This is a " << op_type << std::endl;
+//    return 0;
+//}

@@ -29,6 +29,6 @@ int main(int argc, char *argv[])
     closed = is_closed(pt_grp);
     std::cout<<"This Group is Closed: "<<closed<<endl;
 //    std::cout<<pt_grp.size()<<endl;
-    print_ptgroup(pt_grp);
+    print_ptgroup(pt_grp, L);
     return 0;
 }
