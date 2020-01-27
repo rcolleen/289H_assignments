@@ -1,0 +1,431 @@
+This is the lattice: 
+3.50804       0       0
+      0 3.50804       0
+      0       0 3.50804
+This is the basis: 
+0
+0
+0
+      0
+1.75402
+1.75402
+1.75402
+      0
+1.75402
+1.75402
+1.75402
+      0
+MY Struct lattice is : 
+3.50804       0       0
+      0 3.50804       0
+      0       0 3.50804
+Point Group has 48Symmetry Operations
+Symmetry Op 1 is a Inversion
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 2 is a Rotation
+-1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 3 is a Rotation
+-1  0  0
+ 0  0 -1
+ 0 -1  0
+Symmetry Op 4 is a Improper rotation
+-1  0  0
+ 0  0  1
+ 0 -1  0
+Symmetry Op 5 is a Improper rotation
+-1  0  0
+ 0  0 -1
+ 0  1  0
+Symmetry Op 6 is a Rotation
+-1  0  0
+ 0  0  1
+ 0  1  0
+Symmetry Op 7 is a Rotation
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 8 is a Mirror
+-1  0  0
+ 0  1  0
+ 0  0  1
+Symmetry Op 9 is a Rotation
+ 0 -1  0
+-1  0  0
+ 0  0 -1
+Symmetry Op 10 is a Mirror
+ 0 -1  0
+-1  0  0
+ 0  0  1
+Symmetry Op 11 is a Improper rotation
+ 0  0 -1
+-1  0  0
+ 0 -1  0
+Symmetry Op 12 is a Rotation
+ 0  0  1
+-1  0  0
+ 0 -1  0
+Symmetry Op 13 is a Rotation
+ 0  0 -1
+-1  0  0
+ 0  1  0
+Symmetry Op 14 is a Improper rotation
+ 0  0  1
+-1  0  0
+ 0  1  0
+Symmetry Op 15 is a Improper rotation
+ 0  1  0
+-1  0  0
+ 0  0 -1
+Symmetry Op 16 is a Rotation
+ 0  1  0
+-1  0  0
+ 0  0  1
+Symmetry Op 17 is a Improper rotation
+ 0 -1  0
+ 0  0 -1
+-1  0  0
+Symmetry Op 18 is a Rotation
+ 0 -1  0
+ 0  0  1
+-1  0  0
+Symmetry Op 19 is a Rotation
+ 0  0 -1
+ 0 -1  0
+-1  0  0
+Symmetry Op 20 is a Improper rotation
+ 0  0  1
+ 0 -1  0
+-1  0  0
+Symmetry Op 21 is a Mirror
+ 0  0 -1
+ 0  1  0
+-1  0  0
+Symmetry Op 22 is a Rotation
+ 0  0  1
+ 0  1  0
+-1  0  0
+Symmetry Op 23 is a Rotation
+ 0  1  0
+ 0  0 -1
+-1  0  0
+Symmetry Op 24 is a Improper rotation
+ 0  1  0
+ 0  0  1
+-1  0  0
+Symmetry Op 25 is a Rotation
+ 0 -1  0
+ 0  0 -1
+ 1  0  0
+Symmetry Op 26 is a Improper rotation
+ 0 -1  0
+ 0  0  1
+ 1  0  0
+Symmetry Op 27 is a Improper rotation
+ 0  0 -1
+ 0 -1  0
+ 1  0  0
+Symmetry Op 28 is a Rotation
+ 0  0  1
+ 0 -1  0
+ 1  0  0
+Symmetry Op 29 is a Rotation
+ 0  0 -1
+ 0  1  0
+ 1  0  0
+Symmetry Op 30 is a Mirror
+0 0 1
+0 1 0
+1 0 0
+Symmetry Op 31 is a Improper rotation
+ 0  1  0
+ 0  0 -1
+ 1  0  0
+Symmetry Op 32 is a Rotation
+0 1 0
+0 0 1
+1 0 0
+Symmetry Op 33 is a Improper rotation
+ 0 -1  0
+ 1  0  0
+ 0  0 -1
+Symmetry Op 34 is a Rotation
+ 0 -1  0
+ 1  0  0
+ 0  0  1
+Symmetry Op 35 is a Rotation
+ 0  0 -1
+ 1  0  0
+ 0 -1  0
+Symmetry Op 36 is a Improper rotation
+ 0  0  1
+ 1  0  0
+ 0 -1  0
+Symmetry Op 37 is a Improper rotation
+ 0  0 -1
+ 1  0  0
+ 0  1  0
+Symmetry Op 38 is a Rotation
+0 0 1
+1 0 0
+0 1 0
+Symmetry Op 39 is a Rotation
+ 0  1  0
+ 1  0  0
+ 0  0 -1
+Symmetry Op 40 is a Mirror
+0 1 0
+1 0 0
+0 0 1
+Symmetry Op 41 is a Rotation
+ 1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 42 is a Mirror
+ 1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 43 is a Mirror
+ 1  0  0
+ 0  0 -1
+ 0 -1  0
+Symmetry Op 44 is a Rotation
+ 1  0  0
+ 0  0  1
+ 0 -1  0
+Symmetry Op 45 is a Rotation
+ 1  0  0
+ 0  0 -1
+ 0  1  0
+Symmetry Op 46 is a Mirror
+1 0 0
+0 0 1
+0 1 0
+Symmetry Op 47 is a Mirror
+ 1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 48 is a Identity
+1 0 0
+0 1 0
+0 0 1
+The Factor Group has 24Symmetry Operations
+Symmetry Op 1
+Cartesian Matrix
+-1  0  0
+ 0 -1  0
+ 0  0  1
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 2
+Cartesian Matrix
+-1  0  0
+ 0  0  1
+ 0 -1  0
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 3
+Cartesian Matrix
+-1  0  0
+ 0  0 -1
+ 0  1  0
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 4
+Cartesian Matrix
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 5
+Cartesian Matrix
+ 0 -1  0
+-1  0  0
+ 0  0  1
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 6
+Cartesian Matrix
+ 0  0  1
+-1  0  0
+ 0 -1  0
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 7
+Cartesian Matrix
+ 0  0 -1
+-1  0  0
+ 0  1  0
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 8
+Cartesian Matrix
+ 0  1  0
+-1  0  0
+ 0  0 -1
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 9
+Cartesian Matrix
+ 0 -1  0
+ 0  0  1
+-1  0  0
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 10
+Cartesian Matrix
+ 0  0  1
+ 0 -1  0
+-1  0  0
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 11
+Cartesian Matrix
+ 0  0 -1
+ 0  1  0
+-1  0  0
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 12
+Cartesian Matrix
+ 0  1  0
+ 0  0 -1
+-1  0  0
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 13
+Cartesian Matrix
+ 0 -1  0
+ 0  0 -1
+ 1  0  0
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 14
+Cartesian Matrix
+ 0  0 -1
+ 0 -1  0
+ 1  0  0
+Translation Vector
+1.75402
+1.75402
+      0
+Symmetry Op 15
+Cartesian Matrix
+0 0 1
+0 1 0
+1 0 0
+Translation Vector
+0
+0
+0
+Symmetry Op 16
+Cartesian Matrix
+0 1 0
+0 0 1
+1 0 0
+Translation Vector
+0
+0
+0
+Symmetry Op 17
+Cartesian Matrix
+ 0 -1  0
+ 1  0  0
+ 0  0 -1
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 18
+Cartesian Matrix
+ 0  0 -1
+ 1  0  0
+ 0 -1  0
+Translation Vector
+1.75402
+      0
+1.75402
+Symmetry Op 19
+Cartesian Matrix
+0 0 1
+1 0 0
+0 1 0
+Translation Vector
+0
+0
+0
+Symmetry Op 20
+Cartesian Matrix
+0 1 0
+1 0 0
+0 0 1
+Translation Vector
+0
+0
+0
+Symmetry Op 21
+Cartesian Matrix
+ 1  0  0
+ 0 -1  0
+ 0  0 -1
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 22
+Cartesian Matrix
+ 1  0  0
+ 0  0 -1
+ 0 -1  0
+Translation Vector
+      0
+1.75402
+1.75402
+Symmetry Op 23
+Cartesian Matrix
+1 0 0
+0 0 1
+0 1 0
+Translation Vector
+0
+0
+0
+Symmetry Op 24
+Cartesian Matrix
+1 0 0
+0 1 0
+0 0 1
+Translation Vector
+0
+0
+0
