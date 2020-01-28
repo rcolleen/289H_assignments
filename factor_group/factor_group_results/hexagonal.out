@@ -1,0 +1,190 @@
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Input file title: hexagonal unit cell
+Lattice: 
+      0.5       0.5         0
+-0.866025  0.866025         0
+        0         0         2
+Basis: 
+
+0
+0
+0
+ 0.33333
+0.666667
+     0.5
+This is the lattice: 
+      0.5       0.5         0
+-0.866025  0.866025         0
+        0         0         2
+This is the basis: 
+0
+0
+0
+0.499999
+       0
+       1
+MY Struct lattice is : 
+      0.5       0.5         0
+-0.866025  0.866025         0
+        0         0         2
+Point Group has 24Symmetry Operations
+Symmetry Op 1 is a Rotation
+    -0.5 0.866025        0
+0.866025      0.5        0
+       0        0       -1
+Symmetry Op 2 is a Mirror
+    -0.5 0.866025        0
+0.866025      0.5        0
+       0        0        1
+Symmetry Op 3 is a Improper rotation
+     -0.5  0.866025         0
+-0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 4 is a Rotation
+     -0.5  0.866025         0
+-0.866025      -0.5         0
+        0         0         1
+Symmetry Op 5 is a Inversion
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 6 is a Rotation
+-1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 7 is a Rotation
+     0.5 0.866025        0
+0.866025     -0.5        0
+       0        0       -1
+Symmetry Op 8 is a Mirror
+     0.5 0.866025        0
+0.866025     -0.5        0
+       0        0        1
+Symmetry Op 9 is a Rotation
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 10 is a Mirror
+-1  0  0
+ 0  1  0
+ 0  0  1
+Symmetry Op 11 is a Improper rotation
+      0.5  0.866025         0
+-0.866025       0.5         0
+        0         0        -1
+Symmetry Op 12 is a Rotation
+      0.5  0.866025         0
+-0.866025       0.5         0
+        0         0         1
+Symmetry Op 13 is a Improper rotation
+     -0.5 -0.866025         0
+ 0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 14 is a Rotation
+     -0.5 -0.866025         0
+ 0.866025      -0.5         0
+        0         0         1
+Symmetry Op 15 is a Rotation
+ 1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 16 is a Mirror
+ 1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 17 is a Rotation
+     -0.5 -0.866025         0
+-0.866025       0.5         0
+        0         0        -1
+Symmetry Op 18 is a Mirror
+     -0.5 -0.866025         0
+-0.866025       0.5         0
+        0         0         1
+Symmetry Op 19 is a Mirror
+ 1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 20 is a Identity
+1 0 0
+0 1 0
+0 0 1
+Symmetry Op 21 is a Improper rotation
+      0.5 -0.866025         0
+ 0.866025       0.5         0
+        0         0        -1
+Symmetry Op 22 is a Rotation
+      0.5 -0.866025         0
+ 0.866025       0.5         0
+        0         0         1
+Symmetry Op 23 is a Rotation
+      0.5 -0.866025         0
+-0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 24 is a Mirror
+      0.5 -0.866025         0
+-0.866025      -0.5         0
+        0         0         1
+The Factor Group has 6Symmetry Operations
+Symmetry Op 1
+Cartesian Matrix
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Translation Vector
+0.499999
+       0
+       1
+Symmetry Op 2
+Cartesian Matrix
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Translation Vector
+0.499999
+       0
+       1
+Symmetry Op 3
+Cartesian Matrix
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Translation Vector
+0.499999
+       0
+       1
+Symmetry Op 4
+Cartesian Matrix
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Translation Vector
+0.499999
+       0
+       1
+Symmetry Op 5
+Cartesian Matrix
+ 1  0  0
+ 0 -1  0
+ 0  0  1
+Translation Vector
+0
+0
+0
+Symmetry Op 6
+Cartesian Matrix
+1 0 0
+0 1 0
+0 0 1
+Translation Vector
+0
+0
+0

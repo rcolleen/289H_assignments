@@ -1,0 +1,127 @@
+This is the Lattice:
+      0.5       0.5         0
+-0.866025  0.866025         0
+        0         0         2
+This Group is Closed: 1
+Point Group has 24Symmetry Operations
+Symmetry Op 1 is a Rotation
+    -0.5 0.866025        0
+0.866025      0.5        0
+       0        0       -1
+Symmetry Op 2 is a Mirror
+    -0.5 0.866025        0
+0.866025      0.5        0
+       0        0        1
+Symmetry Op 3 is a Improper rotation
+     -0.5  0.866025         0
+-0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 4 is a Rotation
+     -0.5  0.866025         0
+-0.866025      -0.5         0
+        0         0         1
+Symmetry Op 5 is a Inversion
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 6 is a Rotation
+-1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 7 is a Rotation
+     0.5 0.866025        0
+0.866025     -0.5        0
+       0        0       -1
+Symmetry Op 8 is a Mirror
+     0.5 0.866025        0
+0.866025     -0.5        0
+       0        0        1
+Symmetry Op 9 is a Rotation
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 10 is a Mirror
+-1  0  0
+ 0  1  0
+ 0  0  1
+Symmetry Op 11 is a Improper rotation
+      0.5  0.866025         0
+-0.866025       0.5         0
+        0         0        -1
+Symmetry Op 12 is a Rotation
+      0.5  0.866025         0
+-0.866025       0.5         0
+        0         0         1
+Symmetry Op 13 is a Improper rotation
+     -0.5 -0.866025         0
+ 0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 14 is a Rotation
+     -0.5 -0.866025         0
+ 0.866025      -0.5         0
+        0         0         1
+Symmetry Op 15 is a Rotation
+ 1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 16 is a Mirror
+ 1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 17 is a Rotation
+     -0.5 -0.866025         0
+-0.866025       0.5         0
+        0         0        -1
+Symmetry Op 18 is a Mirror
+     -0.5 -0.866025         0
+-0.866025       0.5         0
+        0         0         1
+Symmetry Op 19 is a Mirror
+ 1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 20 is a Identity
+1 0 0
+0 1 0
+0 0 1
+Symmetry Op 21 is a Improper rotation
+      0.5 -0.866025         0
+ 0.866025       0.5         0
+        0         0        -1
+Symmetry Op 22 is a Rotation
+      0.5 -0.866025         0
+ 0.866025       0.5         0
+        0         0         1
+Symmetry Op 23 is a Rotation
+      0.5 -0.866025         0
+-0.866025      -0.5         0
+        0         0        -1
+Symmetry Op 24 is a Mirror
+      0.5 -0.866025         0
+-0.866025      -0.5         0
+        0         0         1
+Multiplication Table Found:
+E  T  S  R  Y  X  W  V  M  L  K  J  Q  P  O  N  D  C  B  A  I  H  G  F  
+ T E  R  S  X  Y  V  W  L  M  J  K  P  Q  N  O  C  D  A  B  H  I  F  G  
+ Q  P  O  N  W  V  Y  X  I  H  G  F E  T  S  R  B  A  D  C  M  L  K  J  
+ P  Q  N  O  V  W  X  Y  H  I  F  G  T E  R  S  A  B  C  D  L  M  J  K  
+ Y  X  W  V E  T  S  R  Q  P  O  N  M  L  K  J  I  H  G  F  D  C  B  A  
+ X  Y  V  W  T E  R  S  P  Q  N  O  L  M  J  K  H  I  F  G  C  D  A  B  
+ M  L  K  J  S  R E  T  D  C  B  A  Y  X  W  V  G  F  I  H  Q  P  O  N  
+ L  M  J  K  R  S  T E  C  D  A  B  X  Y  V  W  F  G  H  I  P  Q  N  O  
+ W  V  Y  X  Q  P  O  N E  T  S  R  I  H  G  F  M  L  K  J  B  A  D  C  
+ V  W  X  Y  P  Q  N  O  T E  R  S  H  I  F  G  L  M  J  K  A  B  C  D  
+ I  H  G  F  O  N  Q  P  B  A  D  C  W  V  Y  X  K  J  M  L E  T  S  R  
+ H  I  F  G  N  O  P  Q  A  B  C  D  V  W  X  Y  J  K  L  M  T E  R  S  
+ S  R E  T  M  L  K  J  Y  X  W  V  D  C  B  A  Q  P  O  N  G  F  I  H  
+ R  S  T E  L  M  J  K  X  Y  V  W  C  D  A  B  P  Q  N  O  F  G  H  I  
+ D  C  B  A  K  J  M  L  G  F  I  H  S  R E  T  O  N  Q  P  Y  X  W  V  
+ C  D  A  B  J  K  L  M  F  G  H  I  R  S  T E  N  O  P  Q  X  Y  V  W  
+ O  N  Q  P  I  H  G  F  W  V  Y  X  B  A  D  C E  T  S  R  K  J  M  L  
+ N  O  P  Q  H  I  F  G  V  W  X  Y  A  B  C  D  T E  R  S  J  K  L  M  
+ B  A  D  C  G  F  I  H  K  J  M  L  O  N  Q  P  S  R E  T  W  V  Y  X  
+ A  B  C  D  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T E  V  W  X  Y  
+ K  J  M  L  D  C  B  A  S  R E  T  G  F  I  H  Y  X  W  V  O  N  Q  P  
+ J  K  L  M  C  D  A  B  R  S  T E  F  G  H  I  X  Y  V  W  N  O  P  Q  
+ G  F  I  H  B  A  D  C  O  N  Q  P  K  J  M  L  W  V  Y  X  S  R E  T  
+ F  G  H  I  A  B  C  D  N  O  P  Q  J  K  L  M  V  W  X  Y  R  S  T E  
