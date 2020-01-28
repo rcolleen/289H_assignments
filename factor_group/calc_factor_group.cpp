@@ -11,18 +11,6 @@
 
 #define PREC 1e-6
 
-//auto create_basis_grid(const Eigen::Matrix3d lattice, std::vector<Eigen::Vector3d> basis)
-//{
-//    /*this function will genreate a lattice
-//     *
-//     *
-//     *
-//     *
-//     */
-//    double n=2.0;
-//    int 
-//    return 0;
-//}
 
 auto fractional_to_cartesian(const Eigen::Matrix3d lattice, Eigen::Vector3d coordinate)
 {
@@ -32,25 +20,6 @@ auto fractional_to_cartesian(const Eigen::Matrix3d lattice, Eigen::Vector3d coor
     cart_coordinate(2)=coordinate(2)*lattice(2,0)+coordinate(1)*lattice(2,1)+coordinate(2)*lattice(2,2);
     return cart_coordinate;
 }
-
-//auto cartesian_to_fractional(const Eigen::Matrix3d lattice, Eigen::Vector3d coordinate)
-//{
-//    return fractional_coordinate;
-//}
-
-//Eigen::Vector3d map_to_unticell(const Eigen::Matrix3d lattice, Eigen::Vector3d coord)
-//{
-//    /*remaps transfrmed coordinate back into the original unit cell
-//     *
-//     */
-//    Eigen::Vector3d new_coord;
-//    for (int i=0; i<3; i++){
-//        new_coord(0)=;
-//    }
-//    return new_coord;
-//    
-//}
-
 
 auto apply_symop_to_basis(Symmetry_Operation this_op, std::vector<Eigen::Vector3d> basis)
 {

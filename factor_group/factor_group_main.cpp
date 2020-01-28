@@ -20,20 +20,6 @@ int main(int argc, char *argv[])
       return 1;
   }
   Crystal_Structure my_struct = read_poscar(argv[1]);
-//  Eigen::Matrix3d  lattice;
-//  std::vector<Eigen::Vector3d> basis;
-//  Crystal_Structure my_struct(lattice, basis);/  
-//  my_struct.lattice.col(0) <<1.0, 1.0, -1.0;
-//  my_struct.lattice.col(1) <<-1.0, 1.0, 1.0;
-//  my_struct.lattice.col(2) << 1.0, -1.0, 1.0;
-//  Eigen::Vector3d coord; coord <<0.0, 0.0, 0.0;
-//  my_struct.basis.push_back(coord);
- // coord << 0.5, 0.5, 0.5;
-//  my_struct.basis.push_back(coord);
-//  coord << 0.5, 0.0, 0.5;
-//  my_struct.basis.push_back(coord);
-//  coord << 0.5, 0.5, 0.0;
-//  my_struct.basis.push_back(coord);
   int len_basis = my_struct.basis.size();
   std::cout<<"This is the lattice: \n"<<my_struct.lattice<<std::endl;
   std::cout<<"This is the basis: \n";
@@ -42,15 +28,12 @@ int main(int argc, char *argv[])
       std::cout<<my_struct.basis[i]<<std::endl;
   }
 
-
-  std::cout<<"MY Struct lattice is : \n" << my_struct.lattice<<std::endl;
+  //std::cout<<"MY Struct lattice is : \n" << my_struct.lattice<<std::endl;
   auto pt_group = calc_point_group(my_struct.lattice);
   print_ptgroup(pt_group, my_struct.lattice);
   auto my_factor_group = find_factor_group(my_struct);
   print_factor_group(my_factor_group);
   
-
-
   return 0;
 }
 
