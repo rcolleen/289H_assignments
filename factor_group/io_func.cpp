@@ -5,7 +5,8 @@
 #include <string>
 #include <vector>
 #include <set>
-//#include "symop.cpp"
+//#include "symop.cpp" //comment out to compile factor group
+//#include "crystal_class.cpp"
 #include "categorize_symop_main.cpp"
 
 using namespace std;
@@ -145,3 +146,56 @@ void print_factor_group(const std::vector<Symmetry_Operation> factor_group)
     return;
 }
 
+Crystal_Structure read_poscar(std::string filename)
+{
+    /*input is the path to a Poscar file
+     * This function reads the file and puts the information of the lattice and basis
+     * into a Crystal_structure object which is returned
+     */
+
+     Eigen::Matrix3d  lattice;
+     std::vector<Eigen::Vector3d> basis;
+     Crystal_Structure xtal_struct(lattice, basis);
+     std::ifstream file(filename);
+     std::string line;
+//     file.open(filename.c_str());
+     std::string title;
+//     std::getline(file, title);
+     int ct=0;
+     double val1;
+     double val2;
+     double val3;
+     while (std::getline(file, line)){
+             std::stringstream linestream(line);
+             std::cout<<ct<<std::endl;
+             if (ct==0){ct++;
+                 title=line;}
+             else if (ct==1){ct++; continue;}
+             else if (ct>1 && ct<=4){
+             linestream>>val1>>val2>>val3;
+             xtal_struct.lattice(0,ct-2)=val1;
+             xtal_struct.lattice(1,ct-2)=val2;
+             xtal_struct.lattice(2,ct-2)=val3;
+             ct++;
+             }
+             else if(ct>4 && ct<8){ct++;}
+             else{
+             linestream>>val1>>val2>>val3;
+             Eigen::Vector3d temp;
+             temp(0)=val1;
+             temp(1)=val2;
+             temp(2)=val3;
+             xtal_struct.basis.push_back(temp);
+             ct++;
+             }
+     }
+     std::cout<<"Input file title: "<<title<<std::endl;
+     std::cout<<"Lattice: \n"<<xtal_struct.lattice <<std::endl;
+     std::cout<<"Basis: \n" <<std::endl;
+     int len_basis=xtal_struct.basis.size();
+     for (int i=0; i<len_basis; i++){
+         std::cout<<xtal_struct.basis[i]<<std::endl;
+     }
+     return xtal_struct;
+
+}
