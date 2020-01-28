@@ -1,0 +1,23 @@
+This directory contains the src code and binary compilations of a point group finding code which also prints the multiplication table, and a factor group findng code.
+
+To compile the point group code please type:
+./bash compile.sh
+
+To test the code run in the terminal:
+./point_group /PATH/TO/POSCAR
+
+to write output to a file:
+./point_group /PATH/TO/POSCAR/ >ouput.filename
+
+To compile the factor group code first comment out the two include lines noted at the top of the io_func.cpp file. Then execute:
+./bash factor_group_compile.s
+
+To test code run in terminal:
+./find_factor_group /PATH/TO/POSCAR 
+
+To write output to file:
+./find_factor_group /PATH/TO/POSCAR >output.filename
+
+Output file from several example POSCARS can be found in the point_group_results and factor_group_results directories respectively.
+
+
