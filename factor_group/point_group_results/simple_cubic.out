@@ -1,0 +1,247 @@
+This is the Lattice:
+1 0 0
+0 1 0
+0 0 1
+This Group is Closed: 1
+Point Group has 48Symmetry Operations
+Symmetry Op 1 is a Inversion
+-1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 2 is a Rotation
+-1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 3 is a Rotation
+-1  0  0
+ 0  0 -1
+ 0 -1  0
+Symmetry Op 4 is a Improper rotation
+-1  0  0
+ 0  0  1
+ 0 -1  0
+Symmetry Op 5 is a Improper rotation
+-1  0  0
+ 0  0 -1
+ 0  1  0
+Symmetry Op 6 is a Rotation
+-1  0  0
+ 0  0  1
+ 0  1  0
+Symmetry Op 7 is a Rotation
+-1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 8 is a Mirror
+-1  0  0
+ 0  1  0
+ 0  0  1
+Symmetry Op 9 is a Rotation
+ 0 -1  0
+-1  0  0
+ 0  0 -1
+Symmetry Op 10 is a Mirror
+ 0 -1  0
+-1  0  0
+ 0  0  1
+Symmetry Op 11 is a Improper rotation
+ 0  0 -1
+-1  0  0
+ 0 -1  0
+Symmetry Op 12 is a Rotation
+ 0  0  1
+-1  0  0
+ 0 -1  0
+Symmetry Op 13 is a Rotation
+ 0  0 -1
+-1  0  0
+ 0  1  0
+Symmetry Op 14 is a Improper rotation
+ 0  0  1
+-1  0  0
+ 0  1  0
+Symmetry Op 15 is a Improper rotation
+ 0  1  0
+-1  0  0
+ 0  0 -1
+Symmetry Op 16 is a Rotation
+ 0  1  0
+-1  0  0
+ 0  0  1
+Symmetry Op 17 is a Improper rotation
+ 0 -1  0
+ 0  0 -1
+-1  0  0
+Symmetry Op 18 is a Rotation
+ 0 -1  0
+ 0  0  1
+-1  0  0
+Symmetry Op 19 is a Rotation
+ 0  0 -1
+ 0 -1  0
+-1  0  0
+Symmetry Op 20 is a Improper rotation
+ 0  0  1
+ 0 -1  0
+-1  0  0
+Symmetry Op 21 is a Mirror
+ 0  0 -1
+ 0  1  0
+-1  0  0
+Symmetry Op 22 is a Rotation
+ 0  0  1
+ 0  1  0
+-1  0  0
+Symmetry Op 23 is a Rotation
+ 0  1  0
+ 0  0 -1
+-1  0  0
+Symmetry Op 24 is a Improper rotation
+ 0  1  0
+ 0  0  1
+-1  0  0
+Symmetry Op 25 is a Rotation
+ 0 -1  0
+ 0  0 -1
+ 1  0  0
+Symmetry Op 26 is a Improper rotation
+ 0 -1  0
+ 0  0  1
+ 1  0  0
+Symmetry Op 27 is a Improper rotation
+ 0  0 -1
+ 0 -1  0
+ 1  0  0
+Symmetry Op 28 is a Rotation
+ 0  0  1
+ 0 -1  0
+ 1  0  0
+Symmetry Op 29 is a Rotation
+ 0  0 -1
+ 0  1  0
+ 1  0  0
+Symmetry Op 30 is a Mirror
+0 0 1
+0 1 0
+1 0 0
+Symmetry Op 31 is a Improper rotation
+ 0  1  0
+ 0  0 -1
+ 1  0  0
+Symmetry Op 32 is a Rotation
+0 1 0
+0 0 1
+1 0 0
+Symmetry Op 33 is a Improper rotation
+ 0 -1  0
+ 1  0  0
+ 0  0 -1
+Symmetry Op 34 is a Rotation
+ 0 -1  0
+ 1  0  0
+ 0  0  1
+Symmetry Op 35 is a Rotation
+ 0  0 -1
+ 1  0  0
+ 0 -1  0
+Symmetry Op 36 is a Improper rotation
+ 0  0  1
+ 1  0  0
+ 0 -1  0
+Symmetry Op 37 is a Improper rotation
+ 0  0 -1
+ 1  0  0
+ 0  1  0
+Symmetry Op 38 is a Rotation
+0 0 1
+1 0 0
+0 1 0
+Symmetry Op 39 is a Rotation
+ 0  1  0
+ 1  0  0
+ 0  0 -1
+Symmetry Op 40 is a Mirror
+0 1 0
+1 0 0
+0 0 1
+Symmetry Op 41 is a Rotation
+ 1  0  0
+ 0 -1  0
+ 0  0 -1
+Symmetry Op 42 is a Mirror
+ 1  0  0
+ 0 -1  0
+ 0  0  1
+Symmetry Op 43 is a Mirror
+ 1  0  0
+ 0  0 -1
+ 0 -1  0
+Symmetry Op 44 is a Rotation
+ 1  0  0
+ 0  0  1
+ 0 -1  0
+Symmetry Op 45 is a Rotation
+ 1  0  0
+ 0  0 -1
+ 0  1  0
+Symmetry Op 46 is a Mirror
+1 0 0
+0 0 1
+0 1 0
+Symmetry Op 47 is a Mirror
+ 1  0  0
+ 0  1  0
+ 0  0 -1
+Symmetry Op 48 is a Identity
+1 0 0
+0 1 0
+0 0 1
+Multiplication Table Found:
+E AV AU AT AS AR AQ AP AO AN AM AL AK AJ AI AH AG AF AE AD AC AB AA  Z  Y  X  W  V  U  T  S  R  Q  P  O  N  M  L  K  J  I  H  G  F  D  C  B  A  
+AV E AS AR AU AT AP AQ AN AO AK AJ AM AL AH AI  Y  X  W  V  U  T  S  R AG AF AE AD AC AB AA  Z  P  Q  M  L  O  N  J  K  H  I  D  C  G  F  A  B  
+AU AT E AV AQ AP AS AR AG AF AE AD AC AB AA  Z AO AN AM AL AK AJ AI AH  Q  P  O  N  M  L  K  J  Y  X  W  V  U  T  S  R  G  F  I  H  B  A  D  C  
+AT AU AQ AP E AV AR AS AF AG AC AB AE AD  Z AA  Q  P  O  N  M  L  K  J AO AN AM AL AK AJ AI AH  X  Y  U  T  W  V  R  S  F  G  B  A  I  H  C  D  
+AS AR AV E AP AQ AU AT  Y  X  W  V  U  T  S  R AN AO AK AJ AM AL AH AI  P  Q  M  L  O  N  J  K AG AF AE AD AC AB AA  Z  D  C  H  I  A  B  G  F  
+AR AS AP AQ AV E AT AU  X  Y  U  T  W  V  R  S  P  Q  M  L  O  N  J  K AN AO AK AJ AM AL AH AI AF AG AC AB AE AD  Z AA  C  D  A  B  H  I  F  G  
+AQ AP AT AU AR AS E AV  Q  P  O  N  M  L  K  J AF AG AC AB AE AD  Z AA  X  Y  U  T  W  V  R  S AO AN AM AL AK AJ AI AH  B  A  F  G  C  D  I  H  
+AP AQ AR AS AT AU AV E  P  Q  M  L  O  N  J  K  X  Y  U  T  W  V  R  S AF AG AC AB AE AD  Z AA AN AO AK AJ AM AL AH AI  A  B  C  D  F  G  H  I  
+AO AN AM AL AK AJ AI AH E AV AU AT AS AR AQ AP AE AD AG AF AA  Z AC AB  W  V  Y  X  S  R  U  T  I  H  G  F  D  C  B  A  Q  P  O  N  M  L  K  J  
+AN AO AK AJ AM AL AH AI AV E AS AR AU AT AP AQ  W  V  Y  X  S  R  U  T AE AD AG AF AA  Z AC AB  H  I  D  C  G  F  A  B  P  Q  M  L  O  N  J  K  
+AM AL AO AN AI AH AK AJ AE AD AG AF AA  Z AC AB E AV AU AT AS AR AQ AP  I  H  G  F  D  C  B  A  W  V  Y  X  S  R  U  T  O  N  Q  P  K  J  M  L  
+AL AM AI AH AO AN AJ AK AD AE AA  Z AG AF AB AC  I  H  G  F  D  C  B  A E AV AU AT AS AR AQ AP  V  W  S  R  Y  X  T  U  N  O  K  J  Q  P  L  M  
+AK AJ AN AO AH AI AM AL  W  V  Y  X  S  R  U  T AV E AS AR AU AT AP AQ  H  I  D  C  G  F  A  B AE AD AG AF AA  Z AC AB  M  L  P  Q  J  K  O  N  
+AJ AK AH AI AN AO AL AM  V  W  S  R  Y  X  T  U  H  I  D  C  G  F  A  B AV E AS AR AU AT AP AQ AD AE AA  Z AG AF AB AC  L  M  J  K  P  Q  N  O  
+AI AH AL AM AJ AK AO AN  I  H  G  F  D  C  B  A AD AE AA  Z AG AF AB AC  V  W  S  R  Y  X  T  U E AV AU AT AS AR AQ AP  K  J  N  O  L  M  Q  P  
+AH AI AJ AK AL AM AN AO  H  I  D  C  G  F  A  B  V  W  S  R  Y  X  T  U AD AE AA  Z AG AF AB AC AV E AS AR AU AT AP AQ  J  K  L  M  N  O  P  Q  
+AG AF AE AD AC AB AA  Z AU AT E AV AQ AP AS AR AM AL AO AN AI AH AK AJ  O  N  Q  P  K  J  M  L  G  F  I  H  B  A  D  C  Y  X  W  V  U  T  S  R  
+AF AG AC AB AE AD  Z AA AT AU AQ AP E AV AR AS  O  N  Q  P  K  J  M  L AM AL AO AN AI AH AK AJ  F  G  B  A  I  H  C  D  X  Y  U  T  W  V  R  S  
+AE AD AG AF AA  Z AC AB AM AL AO AN AI AH AK AJ AU AT E AV AQ AP AS AR  G  F  I  H  B  A  D  C  O  N  Q  P  K  J  M  L  W  V  Y  X  S  R  U  T  
+AD AE AA  Z AG AF AB AC AL AM AI AH AO AN AJ AK  G  F  I  H  B  A  D  C AU AT E AV AQ AP AS AR  N  O  K  J  Q  P  L  M  V  W  S  R  Y  X  T  U  
+AC AB AF AG  Z AA AE AD  O  N  Q  P  K  J  M  L AT AU AQ AP E AV AR AS  F  G  B  A  I  H  C  D AM AL AO AN AI AH AK AJ  U  T  X  Y  R  S  W  V  
+AB AC  Z AA AF AG AD AE  N  O  K  J  Q  P  L  M  F  G  B  A  I  H  C  D AT AU AQ AP E AV AR AS AL AM AI AH AO AN AJ AK  T  U  R  S  X  Y  V  W  
+AA  Z AD AE AB AC AG AF  G  F  I  H  B  A  D  C AL AM AI AH AO AN AJ AK  N  O  K  J  Q  P  L  M AU AT E AV AQ AP AS AR  S  R  V  W  T  U  Y  X  
+ Z AA AB AC AD AE AF AG  F  G  B  A  I  H  C  D  N  O  K  J  Q  P  L  M AL AM AI AH AO AN AJ AK AT AU AQ AP E AV AR AS  R  S  T  U  V  W  X  Y  
+ Y  X  W  V  U  T  S  R AS AR AV E AP AQ AU AT AK AJ AN AO AH AI AM AL  M  L  P  Q  J  K  O  N  D  C  H  I  A  B  G  F AG AF AE AD AC AB AA  Z  
+ X  Y  U  T  W  V  R  S AR AS AP AQ AV E AT AU  M  L  P  Q  J  K  O  N AK AJ AN AO AH AI AM AL  C  D  A  B  H  I  F  G AF AG AC AB AE AD  Z AA  
+ W  V  Y  X  S  R  U  T AK AJ AN AO AH AI AM AL AS AR AV E AP AQ AU AT  D  C  H  I  A  B  G  F  M  L  P  Q  J  K  O  N AE AD AG AF AA  Z AC AB  
+ V  W  S  R  Y  X  T  U AJ AK AH AI AN AO AL AM  D  C  H  I  A  B  G  F AS AR AV E AP AQ AU AT  L  M  J  K  P  Q  N  O AD AE AA  Z AG AF AB AC  
+ U  T  X  Y  R  S  W  V  M  L  P  Q  J  K  O  N AR AS AP AQ AV E AT AU  C  D  A  B  H  I  F  G AK AJ AN AO AH AI AM AL AC AB AF AG  Z AA AE AD  
+ T  U  R  S  X  Y  V  W  L  M  J  K  P  Q  N  O  C  D  A  B  H  I  F  G AR AS AP AQ AV E AT AU AJ AK AH AI AN AO AL AM AB AC  Z AA AF AG AD AE  
+ S  R  V  W  T  U  Y  X  D  C  H  I  A  B  G  F AJ AK AH AI AN AO AL AM  L  M  J  K  P  Q  N  O AS AR AV E AP AQ AU AT AA  Z AD AE AB AC AG AF  
+ R  S  T  U  V  W  X  Y  C  D  A  B  H  I  F  G  L  M  J  K  P  Q  N  O AJ AK AH AI AN AO AL AM AR AS AP AQ AV E AT AU  Z AA AB AC AD AE AF AG  
+ Q  P  O  N  M  L  K  J AQ AP AT AU AR AS E AV AC AB AF AG  Z AA AE AD  U  T  X  Y  R  S  W  V  B  A  F  G  C  D  I  H AO AN AM AL AK AJ AI AH  
+ P  Q  M  L  O  N  J  K AP AQ AR AS AT AU AV E  U  T  X  Y  R  S  W  V AC AB AF AG  Z AA AE AD  A  B  C  D  F  G  H  I AN AO AK AJ AM AL AH AI  
+ O  N  Q  P  K  J  M  L AC AB AF AG  Z AA AE AD AQ AP AT AU AR AS E AV  B  A  F  G  C  D  I  H  U  T  X  Y  R  S  W  V AM AL AO AN AI AH AK AJ  
+ N  O  K  J  Q  P  L  M AB AC  Z AA AF AG AD AE  B  A  F  G  C  D  I  H AQ AP AT AU AR AS E AV  T  U  R  S  X  Y  V  W AL AM AI AH AO AN AJ AK  
+ M  L  P  Q  J  K  O  N  U  T  X  Y  R  S  W  V AP AQ AR AS AT AU AV E  A  B  C  D  F  G  H  I AC AB AF AG  Z AA AE AD AK AJ AN AO AH AI AM AL  
+ L  M  J  K  P  Q  N  O  T  U  R  S  X  Y  V  W  A  B  C  D  F  G  H  I AP AQ AR AS AT AU AV E AB AC  Z AA AF AG AD AE AJ AK AH AI AN AO AL AM  
+ K  J  N  O  L  M  Q  P  B  A  F  G  C  D  I  H AB AC  Z AA AF AG AD AE  T  U  R  S  X  Y  V  W AQ AP AT AU AR AS E AV AI AH AL AM AJ AK AO AN  
+ J  K  L  M  N  O  P  Q  A  B  C  D  F  G  H  I  T  U  R  S  X  Y  V  W AB AC  Z AA AF AG AD AE AP AQ AR AS AT AU AV E AH AI AJ AK AL AM AN AO  
+ I  H  G  F  D  C  B  A AI AH AL AM AJ AK AO AN AA  Z AD AE AB AC AG AF  S  R  V  W  T  U  Y  X  K  J  N  O  L  M  Q  P E AV AU AT AS AR AQ AP  
+ H  I  D  C  G  F  A  B AH AI AJ AK AL AM AN AO  S  R  V  W  T  U  Y  X AA  Z AD AE AB AC AG AF  J  K  L  M  N  O  P  Q AV E AS AR AU AT AP AQ  
+ G  F  I  H  B  A  D  C AA  Z AD AE AB AC AG AF AI AH AL AM AJ AK AO AN  K  J  N  O  L  M  Q  P  S  R  V  W  T  U  Y  X AU AT E AV AQ AP AS AR  
+ F  G  B  A  I  H  C  D  Z AA AB AC AD AE AF AG  K  J  N  O  L  M  Q  P AI AH AL AM AJ AK AO AN  R  S  T  U  V  W  X  Y AT AU AQ AP E AV AR AS  
+ D  C  H  I  A  B  G  F  S  R  V  W  T  U  Y  X AH AI AJ AK AL AM AN AO  J  K  L  M  N  O  P  Q AA  Z AD AE AB AC AG AF AS AR AV E AP AQ AU AT  
+ C  D  A  B  H  I  F  G  R  S  T  U  V  W  X  Y  J  K  L  M  N  O  P  Q AH AI AJ AK AL AM AN AO  Z AA AB AC AD AE AF AG AR AS AP AQ AV E AT AU  
+ B  A  F  G  C  D  I  H  K  J  N  O  L  M  Q  P  Z AA AB AC AD AE AF AG  R  S  T  U  V  W  X  Y AI AH AL AM AJ AK AO AN AQ AP AT AU AR AS E AV  
+ A  B  C  D  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z AA AB AC AD AE AF AG AH AI AJ AK AL AM AN AO AP AQ AR AS AT AU AV E  
