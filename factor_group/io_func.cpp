@@ -5,8 +5,9 @@
 #include <string>
 #include <vector>
 #include <set>
-//#include "symop.cpp" //comment out to compile factor group
-//#include "crystal_class.cpp"
+#include "Eigen/src/Core/util/ForwardDeclarations.h"
+#include "symop.cpp" //comment out to compile factor group
+#include "crystal_class.cpp"//comment out to compile factor group 
 #include "categorize_symop_main.cpp"
 
 using namespace std;
@@ -55,79 +56,6 @@ void print_ptgroup(const std::vector<Eigen::Matrix3d> point_group, Eigen::Matrix
       return;
 }
 
-const char *symop_label_table[48] = {
-    "A",
-    "B",
-    "C",
-    "D",
-    "F",
-    "G",
-    "H",
-    "I",
-    "J",
-    "K",
-    "L",
-    "M",
-    "N",
-    "O",
-    "P",
-    "Q",
-    "R",
-    "S",
-    "T",
-    "U",
-    "V",
-    "W",
-    "X",
-    "Y",
-    "Z",
-    "AA",
-    "AB",
-    "AC",
-    "AD",
-    "AE",
-    "AF",
-    "AG",
-    "AH",
-    "AI",
-    "AJ",
-    "AK",
-    "AL",
-    "AM",
-    "AN",
-    "AO",
-    "AP",
-    "AQ",
-    "AR",
-    "AS",
-    "AT",
-    "AU",
-    "AV",
-    "AW"
-};
-
-
-
-//auto find_multiplication_table(const std::vector<Eigen::Matrix3d>& point_group)
-//{
-//    int grp_size = point_group.size();
-//    char multiplication_table[grp_size][grp_size];
-//
-//    return multiplication_table;
-//}
-//
-//
-//void print_multiplication_table(const std::vector<Eigen::Matrix3d>& point_group)
-//{
-////determines the multiplcation table for the provided point group and 
-//// then prints it to the screen
-//    int grp_size = point_group.size();
-//    char multiplication_table[grp_size][grp_size] = find_multiplication_table(point_group);
-//    std::cout<< "Multiplication Table for Point Group:" <<std::endl;
-//    std::cout<<multiplication_table<<std::endl;
-//    return;
-//}
-//
 void print_factor_group(const std::vector<Symmetry_Operation> factor_group)
 {
     int numops=factor_group.size();
@@ -167,7 +95,7 @@ Crystal_Structure read_poscar(std::string filename)
      double val3;
      while (std::getline(file, line)){
              std::stringstream linestream(line);
-             std::cout<<ct<<std::endl;
+ //            std::cout<<ct<<std::endl;
              if (ct==0){ct++;
                  title=line;}
              else if (ct==1){ct++; continue;}
@@ -189,13 +117,13 @@ Crystal_Structure read_poscar(std::string filename)
              ct++;
              }
      }
-     std::cout<<"Input file title: "<<title<<std::endl;
-     std::cout<<"Lattice: \n"<<xtal_struct.lattice <<std::endl;
-     std::cout<<"Basis: \n" <<std::endl;
-     int len_basis=xtal_struct.basis.size();
-     for (int i=0; i<len_basis; i++){
-         std::cout<<xtal_struct.basis[i]<<std::endl;
-     }
+//     std::cout<<"Input file title: "<<title<<std::endl;
+//     std::cout<<"Lattice: \n"<<xtal_struct.lattice <<std::endl;
+//     std::cout<<"Basis: \n" <<std::endl;
+//     int len_basis=xtal_struct.basis.size();
+//     for (int i=0; i<len_basis; i++){
+//         std::cout<<xtal_struct.basis[i]<<std::endl;
+//     }
      return xtal_struct;
 
 }

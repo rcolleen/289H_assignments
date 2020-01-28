@@ -3,6 +3,9 @@
 #include <cmath>
 #include <fstream>
 #include <vector>
+#include <iterator>
+#include <string>
+#include "label_table.cpp"
 
 #define PREC 1e-6
 
@@ -118,3 +121,41 @@ bool is_closed(std::vector<Eigen::Matrix3d> group)
 	return true;	
 }
 
+std::vector<std::vector<std::string>> find_multiplication_table(const std::vector<Eigen::Matrix3d>& point_group)
+{
+    int grp_size = point_group.size();
+    std::vector<std::vector<std::string>> multiplication_table;
+    
+    Eigen::Matrix3d prod;
+    std::string label;
+   // std::cout<<"Starting Multiplication Table Loop"<<std::endl;
+    for(int i=0; i<grp_size; i++){
+        std::vector<std::string> temp;
+        for(int j=0; j<grp_size; j++){
+            prod=point_group[i]*point_group[j];
+            mat_is_same mat_compare(prod);
+            auto prod_match = std::find_if(point_group.begin(), point_group.end(), mat_compare);
+            if (prod_match==point_group.end()){
+            std::cout<<"Error!!!  Group Is Not Closed!!!"<<std::endl;
+            return multiplication_table;
+            }
+            int prod_distance;
+            prod_distance= std::distance(point_group.begin(), prod_match);
+            if (point_group[prod_distance] == Eigen::Matrix3d::Identity()){
+ //                std::cout<<"Identity Operation Found"<<std::endl;
+                 label="E";}
+            else {label=symop_label_table[prod_distance];}
+            temp.push_back(label);
+         }
+        multiplication_table.push_back(temp);
+     }
+    std::cout<<"Multiplication Table Found:"<<std::endl;
+    for ( int k=0; k<grp_size; k++){
+        for (int m=0; m<grp_size; m++){
+            std::cout<<multiplication_table[k][m]<<" ";
+        }
+        std::cout<<" \n";
+    }
+
+     return multiplication_table;
+ }
